@@ -36,7 +36,7 @@
     "esModuleInterop": true,
     "noUnusedLocals": true,
     "noImplicitAny": true,
-    "declarationDir": "dist/types",
+    "declarationDir": "build/types",
     "declaration": true,
   },
 
