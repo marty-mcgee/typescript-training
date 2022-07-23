@@ -1,0 +1,15 @@
+{
+  "name": "@threed/typescript-training",
+  "repository": "marty-mcgee/typescript-training",
+  "version": "1.0.0",
+  "description": "TypeScript Training with Marty McGee",
+  "author": "Marty McGee",
+  "license": "SEE LICENSE IN LICENSE",
+  "private": false,
+  "type": "module",
+  "dependencies": {
+    "@types/jquery": "^3.5.14",
+    "jquery": "^3.6.0",
+    "typescript": "^4.7.4"
+  }
+}

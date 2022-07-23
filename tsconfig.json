@@ -1,0 +1,48 @@
+{
+  "include": [
+    // "src/**/*"
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+  ],
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "outDir": "build", // build, dist
+    "target": "esnext", // es6, es2017, es2020, es2022, esnext
+    "noEmit": false, // true, false
+
+    // https://stackoverflow.com/questions/62096269/cant-run-my-node-js-typescript-project-typeerror-err-unknown-file-extension
+    "module": "esnext", // es6, es2017, es2020, es2022, esnext // solves "ReferenceError: exports is not defined in ES module scope"
+    // "esModuleInterop": true,
+    // "moduleResolution": "node",
+    // "forceConsistentCasingInFileNames": true,
+    // "noFallthroughCasesInSwitch": true,
+    // "isolatedModules": false,
+    // "strict": true,
+    // "noImplicitAny": true,
+    // "useUnknownInCatchVariables": false,
+    // "inlineSourceMap": true
+
+    // example-typescript-jquery-ajax
+    "allowSyntheticDefaultImports": true,
+    
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "declarationDir": "dist/types",
+    "declaration": true,
+  },
+
+  // https://stackoverflow.com/questions/62096269/cant-run-my-node-js-typescript-project-typeerror-err-unknown-file-extension
+  "ts-node": {
+    "esm": true // solves "TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".ts""
+  },
+  // "lib": ["esnext"],
+}
