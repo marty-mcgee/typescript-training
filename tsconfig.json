@@ -12,7 +12,7 @@
     "allowJs": true,
     "checkJs": true,
     "outDir": "build", // build, dist
-    "target": "esnext", // es6, es2015, (es2017, es2020, es2022,) esnext
+    "target": "esnext", // es6, es2015, (es2017, es2018, es2020, es2022,) esnext
     "noEmit": true, // true, false
 
     // https://stackoverflow.com/questions/62096269/cant-run-my-node-js-typescript-project-typeerror-err-unknown-file-extension
