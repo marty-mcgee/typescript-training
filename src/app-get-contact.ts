@@ -1,12 +1,14 @@
 // import * as $ from "jquery"
 import $ from "jquery"
-console.log("$", $.ajax)
+console.log("$", JSON.stringify($))
 
 // async function getContact(contactId: number) {
 //   const resp = await $.ajax({
 //     url: `/contacts/${contactId}`,
 //     dataType: "json",
 //   })
+
+//   console.log("$ resp", resp)
 
 //   return {
 //     id: +resp.id,

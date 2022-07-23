@@ -12,6 +12,7 @@ interface UserContakt { // <TExternalId>
 }
 
 function clone<T1, T2 extends T1>(source: T1): T2 {
+  // source = source
   return Object.apply({}, source);
 }
 
