@@ -7,6 +7,10 @@
   "license": "SEE LICENSE IN LICENSE",
   "private": false,
   "type": "module",
+  "scripts": {
+    "build": "ts-node ./src/app-get-contact.ts",
+    "test": "tsc"
+  },
   "dependencies": {
     "@types/jquery": "^3.5.14",
     "jquery": "^3.6.0",
