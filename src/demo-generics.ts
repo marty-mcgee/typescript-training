@@ -3,11 +3,11 @@ interface Contakt {
   name: string;
 }
 
-interface UserContakt { // <TExternalId>
+interface UserContakt<TExternalId> { // 
   id: number
   name: string
-  username: string
-  // externalId: TExternalId
+  username?: string
+  externalId?: TExternalId
   // loadExternalId(): Task<TExternalId>
 }
 
@@ -17,7 +17,7 @@ function clone<T1, T2 extends T1>(source: T1): T2 {
 }
 
 const a: Contakt = { id: 123, name: "Homer Simpson" };
-const b = clone<Contakt, UserContakt>(a)
+const b = clone<Contakt, Contakt>(a)
 console.log("a", a)
 console.log("b", b)
 
