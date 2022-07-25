@@ -15,6 +15,10 @@
     "target": "esnext", // es6, es2015, (es2017, es2018, es2020, es2022,) esnext
     "noEmit": true, // true, false
 
+    // TypeScript Essential Training
+    "experimentalDecorators": true, // typescript's decorators (not future javascript decorators) @log @authorize("admin")
+    "emitDecoratorMetadata": true, // requires npm package/library "reflect-metadata": `pnpm i reflect-metadata`
+
     // https://stackoverflow.com/questions/62096269/cant-run-my-node-js-typescript-project-typeerror-err-unknown-file-extension
     "module": "esnext", // solves "ReferenceError: exports is not defined in ES module scope"
     "esModuleInterop": true,

@@ -7,4 +7,4 @@
 1. run `pnpm build` or `npm run build` or `yarn build`
 
 ## to test
-1. run `tsc`
+1. run `tsc` or `pnpm test` or `npm run test` or `yarn test`
