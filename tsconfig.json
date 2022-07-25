@@ -18,6 +18,7 @@
     // TypeScript Essential Training
     "experimentalDecorators": true, // typescript's decorators (not future javascript decorators) @log @authorize("admin")
     "emitDecoratorMetadata": true, // requires npm package/library "reflect-metadata": `pnpm i reflect-metadata`
+    // "module": "CommonJS", // so node and browsers can read, not just tsc
 
     // https://stackoverflow.com/questions/62096269/cant-run-my-node-js-typescript-project-typeerror-err-unknown-file-extension
     "module": "esnext", // solves "ReferenceError: exports is not defined in ES module scope"

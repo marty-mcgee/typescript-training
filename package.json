@@ -8,7 +8,9 @@
   "private": false,
   "type": "module",
   "scripts": {
-    "build": "ts-node ./src/app-get-contact.ts",
+    "build:declarations": "ts-node ./src/declaration-merging.ts",
+    "build:jquery": "ts-node ./src/app-get-contact.ts",
+    "build:node": "node ./src/declaration-merging.ts",
     "test": "tsc"
   },
   "dependencies": {
