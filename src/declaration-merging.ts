@@ -8,4 +8,4 @@ class Customer {}
 const customer = new Customer()
 customer.save = function() {}
 
-const myVar = window.MY_VAR
+const myVar = window.MM_VAR
